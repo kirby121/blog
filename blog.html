@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>blog</title>
+  <link rel="stylesheet" href="blog.css">
+</head>
+
+<body>
+  <div class="title">
+    <h1>Publicar articulo</h1>
+  </div>
+
+  <section class="articles">
+    <div class="create-article">
+      <h2>+</h2>
+    </div>
+  </section>
+
+  <div class="go-up"></div>
+
+  <section class="create-article-form">
+    <div class="div-scroll">
+      <form>
+        <input type="text" placeholder="titulo del articulo" class="form-title">
+        <input type="text" placeholder="url de la imagen (preferiblemente horizontal)" class="form-image">
+        <input type="text" placeholder="descripción" class="form-description">
+        <textarea placeholder="contenido" class="form-content" rows="5"></textarea>
+      </form>
+      <div class="buttons">
+        <button class="create">Crear</button>
+        <button class="cancel">Cancelar</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="complete-article">
+    <div class="scroll">
+      <p class="go-back">x</p>
+      <h2></h2>
+      <p class="description"></p>
+      <p class="content"></p>
+      <img src="" alt="">
+      <button class="delete">Eliminar articulo</button>
+    </div>
+  </section>
+
+  <script src="blog.js"></script>
+</body>
+
+</html>
